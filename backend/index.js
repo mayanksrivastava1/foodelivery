@@ -5,7 +5,7 @@ const mongoDB = require("./db")
 mongoDB
 const path = require('path')
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://comforting-semifreddo-1ca572.netlify.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
