@@ -1,8 +1,11 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Signup() {
     const [credentials, setcredentials] = useState({name:"",email:"",password:"",location:""})
+        let navigate = useNavigate()
+
     // Synthetic Event
     const handleSubmit = async (e) => {
         e.preventDefault();
