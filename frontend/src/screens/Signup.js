@@ -20,6 +20,10 @@ export default function Signup() {
         {
             alert("Enter Valid Credentials");
         }
+        if(json.success){
+            alert("Successfully Signed Up, Please login")
+            navigate('/login')
+        }
     }
     const onChange = (event)=>{
         setcredentials({...credentials,[event.target.name] : event.target.value})
