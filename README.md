@@ -29,12 +29,10 @@ Make sure you have Node.js and npm (or Yarn) installed.
 ### Screenshots
 
 <div style="float: left;padding: 5px;margin: 5px">
-  <img src="1.png" width="200">
-  <img src="2.png" width="200">
-  <img src="3.png" width="200">
-<img src="app/src/main/java/com/hackumass/med/medapp/Images/44932825_534884873652877_3961556887551344640_n.jpg" width="200" >
-<img src="app/src/main/java/com/hackumass/med/medapp/Images/44997162_1862123343909116_5118065162296754176_n.jpg" width="200" >
-<img src="app/src/main/java/com/hackumass/med/medapp/Images/45000578_1094024380760265_5213244188786688000_n.jpg" width="200" >
+  <img src="1.png" width="800"">
+  <img src="2.png" width="800">
+  <img src="3.png" width="800">
+
 </div>
 
 <br>
