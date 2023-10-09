@@ -1,24 +1,29 @@
-# Med Tracker
-* Project completed during HackUMass 2018 - Completed in 24 hrs with 3 Developers
-* A daily health tracker where you get notified to add entries daily. Weekly graphs and summary is posted, once you enter 6 times.
+# Food Delivery App
 
-## Idea
-* We gather information from the user on what's his/her daily routine like
-* A machine learning model trains a data and tests this on that data predicting the best daily practices for the User
-* User is notified every time they open the app and every week to enter their daily activities
-* There are graphs and charts which display the overall profile of the User according to the 
+Food Delivery App is a web application that allows users to browse and search for food items, add them to their cart, and place orders. The application is built using React for the front end, Node.js and Express for the back end, and MongoDB for the database. Redux is used for state management.
 
-## Android Native Features
-* Uses recycler views, 
-* SQLite database - storing the Weekly data for the user - displaying in a History tab
-* Graphview to display the User data from the last week - using Android graphs
-* Libraries from AndroidMultiSelectDialogy from Abumoallim & GraphView.
-* Icons from [materialdesignicons.com](materialdesignicons.com)
+## Features
 
-## Additional Libraries
-* Tensor Flow model created with Python in Jupyter Notebook
-* Integrated with Machine Learning kit by Firebase
-* Firebase Login, Database implemented
+- **Search for Food**: Users can search for various food items based on their preferences.
+- **Add to Cart**: Users can add food items to their cart for easy checkout.
+- **Place Orders**: Users can place orders for the selected food items.
+
+## Tech Stack
+
+- **React**: A popular JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for JavaScript apps, used for managing the application's state.
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine, used for building scalable network applications.
+- **Express.js**: A fast, unopinionated, and minimalist web framework for Node.js, used for building web applications and APIs.
+- **MongoDB**: A widely-used NoSQL database, used for storing and managing application data.
+
+## Installation
+
+Make sure you have Node.js and npm (or Yarn) installed.
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/[YOUR_USERNAME]/food-delivery-app.git
+   cd food-delivery-app
 
 
 ### Screenshots
@@ -33,4 +38,4 @@
 </div>
 
 <br>
-MIT License 2018
+
