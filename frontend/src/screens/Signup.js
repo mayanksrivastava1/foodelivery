@@ -9,7 +9,7 @@ export default function Signup() {
     // Synthetic Event
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("https://food-delivery-g1pk.onrender.com/api/createuser",{
+        const response = await fetch("https://fooddelivery-n6xo.onrender.com/api/createuser",{
             method : 'POST',
             headers:{
                 'Content-Type' : 'application/json'
