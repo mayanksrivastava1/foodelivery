@@ -7,7 +7,7 @@ export default function Login() {
   let navigate = useNavigate()
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://food-delivery-g1pk.onrender.com/api/login", {
+    const response = await fetch("https://fooddelivery-n6xo.onrender.com/api/login", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
